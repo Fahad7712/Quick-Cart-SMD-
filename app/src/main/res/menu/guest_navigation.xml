@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_home"
+        android:title="Home"
+        android:icon="@drawable/homenav"
+        app:showAsAction="ifRoom"
+        android:layout_weight="1" />
+
+    <item
+        android:id="@+id/navigation_category"
+        android:title="Category"
+        android:icon="@drawable/toolnav"
+        android:iconTint="@color/white"
+        app:showAsAction="ifRoom"
+        android:layout_weight="1" />
+
+
+    <item
+        android:id="@+id/navigation_shop"
+        android:title="Cart"
+        android:icon="@drawable/shopnav"
+        app:showAsAction="ifRoom"
+        android:layout_weight="1" />
+
+</menu>

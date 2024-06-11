@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "293266743705",
+    "project_id": "smd-project-16f3f",
+    "storage_bucket": "smd-project-16f3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293266743705:android:90c7b71905f262c5e97308",
+        "android_client_info": {
+          "package_name": "com.fahad.smd_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4tuuJYuTWZ7-gHSn8ISrfYzxUjW2fxSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Calendar icon aligned to the left -->
+    <item android:drawable="@drawable/ic_calendar" android:gravity="start|center_vertical" />
+
+    <!-- Grey background color for "Select Date" -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" /> /> <!-- Grey background color -->
+            <corners android:radius="8dp" /> <!-- Rounded corners -->
+            <padding android:left="35dp" android:right="8dp" /> <!-- Padding for text -->
+        </shape>
+    </item>
+
+    <!-- Downward arrow on the right (optional) -->
+    <item android:drawable="@drawable/ic_arrow_down" android:gravity="end|center_vertical" />
+
+</layer-list>

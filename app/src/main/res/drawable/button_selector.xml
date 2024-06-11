@@ -1,0 +1,22 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pressed state -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#F0F1F2" /> <!-- Green background color when pressed -->
+            <stroke android:width="2dp" android:color="#00FF00" /> <!-- Green outline color when pressed -->
+            <corners android:radius="8dp" /> <!-- Reduced corner radius for rectangular shape -->
+        </shape>
+    </item>
+    <!-- Normal state -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#F0F1F2" /> <!-- White background color in normal state -->
+            <stroke android:width="2dp" android:color="#000000" /> <!-- Black outline color in normal state -->
+            <corners android:radius="8dp" /> <!-- Reduced corner radius for rectangular shape -->
+        </shape>
+    </item>
+</selector>
+
+
+
+

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3E9DF"
+    tools:context=".MainActivity20">
+
+    <View
+        android:id="@+id/background_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="170dp"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:text="50:08"/>
+
+
+
+    <ImageView
+        android:id="@+id/mice"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="650dp"
+        android:src="@drawable/mice" />
+
+    <ImageView
+        android:id="@+id/mutevideo"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="650dp"
+        android:src="@drawable/video" />
+
+    <ImageView
+        android:id="@+id/changecamera"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:src="@drawable/change"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="650dp"/>
+
+    <ImageView
+        android:id="@+id/end"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:src="@drawable/end"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="650dp"/>
+
+    <ImageView
+        android:id="@+id/videoshow"
+        android:layout_width="176dp"
+        android:layout_height="182dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="370dp"
+        android:src="@drawable/bs9" />
+
+    <View
+        android:layout_width="162dp"
+        android:layout_height="10dp"
+        android:layout_gravity="start|top"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="600dp"
+        android:background="#8CAFAF" />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+

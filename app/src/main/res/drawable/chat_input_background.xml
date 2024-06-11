@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="16dp" /> <!-- Adjust the radius to change the roundness of the corners -->
+    <solid android:color="#F3E9DF" /> <!-- Background color of the chat input box -->
+</shape>
